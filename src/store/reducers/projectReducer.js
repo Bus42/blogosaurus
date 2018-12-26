@@ -7,7 +7,7 @@ const initState = {
         },
         {
             id: '2', 
-            title: 'Collect all the start', 
+            title: 'Collect all the stars', 
             content: 'Nulla ad cupidatat incididunt sint consectetur voluptate aute et amet laboris aliqua anim Lorem.'
         },
         {
