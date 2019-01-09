@@ -36,3 +36,15 @@ input[type=email]:not(.browser-default):focus:not([readonly]) + label,
 input[type=password]:not(.browser-default):focus:not([readonly]) + label{
   color: #ec407a !important;
 }
+img#homeIcon {
+  height: 55px;
+  margin-top: 8px;
+  position: absolute;
+  top: 5px;
+  left: 20px;
+}
+footer a {
+  text-decoration: none;
+  color: inherit;
+  font-weight: 600;
+}
