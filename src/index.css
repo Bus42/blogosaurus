@@ -17,7 +17,7 @@ body {
   background-position: top left;
 }
 
-form{
+form {
   padding: 20px;
   margin-top: 60px;
 }
@@ -30,7 +30,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]),
 input[type=email]:not(.browser-default):focus:not([readonly]),
 input[type=password]:not(.browser-default):focus:not([readonly]),
 textarea.materialize-textarea:focus:not([readonly]){
-  border-color: #ec407a;
+  border-color: #26a69a;
   box-shadow: none;
 }
 
@@ -38,7 +38,7 @@ input[type=text]:not(.browser-default):focus:not([readonly]) + label,
 textarea.materialize-textarea:focus:not([readonly]) + label,
 input[type=email]:not(.browser-default):focus:not([readonly]) + label,
 input[type=password]:not(.browser-default):focus:not([readonly]) + label{
-  color: #ec407a !important;
+  color: #26a69a !important;
 }
 img#homeIcon {
   height: 55px;
