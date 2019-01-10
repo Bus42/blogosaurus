@@ -6,11 +6,15 @@ body {
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: url(/img/mario-bg.png) no-repeat;
-  background-size: 100%;
-  background-position: bottom;
-  background-color: #95e8f3;
-  min-height: 100%;
+  background: 
+  url(assets/desk.jpg)
+  100%
+  no-repeat
+  fixed
+  padding-box
+  content-box
+  cadetblue;
+  background-position: top left;
 }
 
 form{
@@ -43,8 +47,16 @@ img#homeIcon {
   top: 5px;
   left: 20px;
 }
+footer {
+  position: relative;
+  bottom: 0;
+}
 footer a {
   text-decoration: none;
   color: inherit;
   font-weight: 600;
+}
+form.white {
+  min-height: 90vh;
+  margin-bottom: 10vh;
 }
