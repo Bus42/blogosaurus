@@ -56,7 +56,8 @@ footer a {
   color: inherit;
   font-weight: 600;
 }
-form.white {
-  min-height: 90vh;
-  margin-bottom: 10vh;
+@media screen and (max-width: 900px) {
+  body {
+    background-size: auto 100vh;
+  }
 }
