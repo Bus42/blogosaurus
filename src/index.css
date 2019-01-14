@@ -8,13 +8,13 @@ body {
   font-family: sans-serif;
   background: 
   url(assets/desk.jpg)
-  100%
   no-repeat
   fixed
   padding-box
   content-box
   cadetblue;
   background-position: top left;
+  background-size: cover;
 }
 
 form {
@@ -56,8 +56,8 @@ footer a {
   color: inherit;
   font-weight: 600;
 }
-@media screen and (max-width: 900px) {
-  body {
-    background-size: auto 100vh;
-  }
+.navSpan {
+  padding-left: 8px;
+  position: relative;
+  bottom: 7px;
 }
