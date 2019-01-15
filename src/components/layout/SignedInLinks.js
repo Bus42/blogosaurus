@@ -26,7 +26,7 @@ const SignedInLinks = props => {
       <li>
         <a href="/" onClick={props.signOut}>
           <i style={{ display: "inline" }} className="material-icons">
-            eject
+            exit_to_app
           </i>
           <span
             className="navSpan"

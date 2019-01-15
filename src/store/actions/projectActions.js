@@ -10,7 +10,8 @@ export const createProject = project => {
         authorFirstName: profile.firstName,
         authorLastName: profile.lastName,
         authorId: authorId,
-        createdAt: new Date()
+        createdAt: new Date(),
+        projectId: project.id
       })
       .then(() => {
         dispatch({ type: "CREATE_PROJECT_SUCCESS" });
